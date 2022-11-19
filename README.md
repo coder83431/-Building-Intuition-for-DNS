@@ -3,7 +3,7 @@
 </p>
 
 <h1>Building Intuition For DNS- Prerequisites and Installation </h1>
-This tutorial outlines....<br />
+This lab, we are inspecting DNS A-Records on a server. DNS A-Records will also be created and deleted as well. Concepts such as CNAME records and Root hints will be explored as well. <br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -35,12 +35,17 @@ This tutorial outlines....<br />
 <p>Overview</p>
 
 <p>
-<img src = "https://i.imgur.com/GFYFR0R.png" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src = "https://imgur.com/3pGrBzA.png" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
  <p>
-1. Create a resource group in Azure.
+
+1. Connect into DC-1 as your domain admin account (mydomain.com\jane_admin). Additionally, connect into Client-1 as an admin (mydomain\jane_admin)
+
+
 </p>                                                                                                    
-                                                                                                     
+   
+   
+   
 <p>
 <img src= "https://i.imgur.com/Pk3J6Rk.png" " height="80%" width="80%" alt="Disk Sanitization Steps" />
 </p>
@@ -49,15 +54,14 @@ This tutorial outlines....<br />
                                                                                                  
                                                                                                  
                                                                                                  
-2. Create a virtual machine within Azure.
-</p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/dDY9AQi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/knE8v1T.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-3. Open Remote Desktop.
+2. From Client-1 try to ping “mainframe” notice that it fails
+
 </p>
 <br />
 
