@@ -3,14 +3,15 @@
 </p>
 
 <h1>Building Intuition For DNS- Prerequisites and Installation </h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This tutorial outlines....<br />
 
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
-- Command
+- Command Line
+- Microsoft Active Directory 
 
 <h2>Operating Systems Used </h2>
 
@@ -19,7 +20,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 - Microsoft Azure 
-- 
+- Two VM (virtual machienes) algready settedup and working: We will call them Client-1 and DC-1
+- Microsoft Active Discovery installed on the DC-1 controller and promoted to a domamin controller
+-The Client-1 vm is connected to the DC-1 VM which has Active Directory installed on it.
+
 <h2>Installation Steps</h2>
 
 
