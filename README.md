@@ -21,8 +21,8 @@ This lab, we are inspecting DNS A-Records on a server. DNS A-Records will also b
 
 - Microsoft Azure 
 - Two VMs(virtual machines)are already setup and working: We will call them Client-1 and DC-1
-- Microsoft Active Discovery installed on the DC-1 controller and promoted to a domamin controller
--The Client-1 VM is connected to the DC-1 VM which has Active Directory installed on it. Both VMs are connected to the same domain.
+- Microsoft Active Discovery installed on the DC-1 controller and promoted to a domain controller.
+The Client-1 VM is connected to the DC-1 VM which has Active Directory installed on it. Both VMs are connected to the same domain
 
 <h2>Installation Steps</h2>
 
