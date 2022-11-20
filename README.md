@@ -58,7 +58,7 @@ The Client-1 VM is connected to the DC-1 VM which has Active Directory installed
 <img src="https://imgur.com/knE8v1T.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-2. From Client-1 try to ping “mainframe”. Notice that it fails. Next, nslookup "mainframe" and notice that it fails.
+2. From Client-1 try to ping “mainframe”. Notice that it fails. Next, nslookup "mainframe" and notice that it fails as well.
 
 </p>
 <br />
