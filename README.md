@@ -105,7 +105,7 @@ This lab, we are inspecting DNS A-Records on a server. DNS A-Records will also b
 <img src="https://i.imgur.com/wVSvcC6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-8. Ping “mainframe” again. Observe the address of the new record is showing up.
+7. Ping “mainframe” again. Observe the address of the new record is showing up.
 
 </p>
 <br />
@@ -114,7 +114,7 @@ This lab, we are inspecting DNS A-Records on a server. DNS A-Records will also b
 <img src="https://i.imgur.com/U0zZqC1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-9.Now we are going to experiment with creating a CNAME record. A CNAME record is a resource that connects one domain to another. Go back to DC-1 and create a CNAME record that points the host “search” to “www.google.com”
+8.Now we are going to experiment with creating a CNAME record. A CNAME record is a resource that connects one domain to another. Go back to DC-1 and create a CNAME record that points the host “search” to “www.google.com”
 
 </p>
 <br />
@@ -123,16 +123,5 @@ This lab, we are inspecting DNS A-Records on a server. DNS A-Records will also b
 <img src="https://i.imgur.com/IdTzZWd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-10. Go back to Client-1 and attempt to ping “search”, observe the results of the CNAME record.
+9. Go back to Client-1 and attempt to ping “search”, observe the results of the CNAME record.
 On Client-1, nslookup “search”, observe the results of the CNAME record.
-
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/0LOpcLJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-11. OsTicket Is Ready. 
-</p>
-<br />
