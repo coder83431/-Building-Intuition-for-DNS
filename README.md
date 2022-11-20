@@ -66,8 +66,15 @@ This lab, we are inspecting DNS A-Records on a server. DNS A-Records will also b
 <br />
 
 <p>
-<img src="https://i.imgur.com/PB1vmBe.png" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/GhWua8Q.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
+
+<p>
+<img src="https://imgur.com/wdxgCGT.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+
 <p>
 3. Create a DNS A-record on DC-1 for “mainframe” and have it point to DC-1’s Private IP address. Now go back to Client-1 and try to ping it. Observe that it works.
 
@@ -75,7 +82,7 @@ This lab, we are inspecting DNS A-Records on a server. DNS A-Records will also b
 <br />
 
 <p>
-<img src="https://i.imgur.com/yt4ZPAk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/b0KpqJ3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 4. Now we are going to experiment with flushing the DNS cache. Go back to DC-1 and change mainframe’s record address to 8.8.8.8.
@@ -84,7 +91,7 @@ This lab, we are inspecting DNS A-Records on a server. DNS A-Records will also b
 <br />
 
 <p>
-<img src="https://i.imgur.com/8ob8uQq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/wdxgCGT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 5. Go back to Client-1 and ping “mainframe” again. Observe that it still pings the old address. 
@@ -93,7 +100,7 @@ This lab, we are inspecting DNS A-Records on a server. DNS A-Records will also b
 <br />
 
 <p>
-<img src="https://i.imgur.com/SbhSS6V.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/Jlu9YV7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 6. Observe the local dns cache (ipconfig /displaydns) and use a command line to flush it. Observe the cache now.
@@ -102,7 +109,7 @@ This lab, we are inspecting DNS A-Records on a server. DNS A-Records will also b
 <br />
 
 <p>
-<img src="https://i.imgur.com/wVSvcC6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/02dXxNk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 7. Ping “mainframe” again. Observe the address of the new record is showing up.
@@ -111,7 +118,7 @@ This lab, we are inspecting DNS A-Records on a server. DNS A-Records will also b
 <br />
 
 <p>
-<img src="https://i.imgur.com/U0zZqC1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/giPFooO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 8.Now we are going to experiment with creating a CNAME record. A CNAME record is a resource that connects one domain to another. Go back to DC-1 and create a CNAME record that points the host “search” to “www.google.com”
@@ -120,8 +127,11 @@ This lab, we are inspecting DNS A-Records on a server. DNS A-Records will also b
 <br />
 
 <p>
-<img src="https://i.imgur.com/IdTzZWd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/3J2NRLx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
 <p>
+<img src="https://imgur.com/OL5fal7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 9. Go back to Client-1 and attempt to ping “search”, observe the results of the CNAME record.
 On Client-1, nslookup “search”, observe the results of the CNAME record.
